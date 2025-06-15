@@ -24,4 +24,4 @@ clean:
 	rm -rf $(DIR)/**/*.o $(DIR)/**/test*
 
 submit:
-	zip -r $(shell whoami | cut -d- -f1 | sed -e 's/[0-9]*/&-lab6.zip/') src/
+	zip -r 2235113235-lab6.zip src/

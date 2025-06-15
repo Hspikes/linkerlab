@@ -182,6 +182,7 @@ void printSymbolTable(ObjectFile &o)
         std::cout << ", value: " << s.value;
         std::cout << ", type: " << s.type;
         std::cout << ", bind: " << s.bind;
-        std::cout << ", vis: " << s.visibility << "\n\n";
+        std::cout << ", vis: " << s.visibility ;
+        std::cout << ", index: "<< s.index<<"\n\n";
     }
 }
